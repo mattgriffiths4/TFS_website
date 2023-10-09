@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #A45454;
+  --secondary-color: #EFEFEF;
+  --black-color: #000;
+  --white-color: #fff;
+  --box-shadow: 0 0 5px 5px #EFEFEF;
+  --box-border: 2px solid #A45454;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1196px;
+}
