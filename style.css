@@ -1,3 +1,4 @@
+/* initial setup */
 *,
 *::before,
 *::after {
@@ -17,5 +18,50 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
   max-width: 1196px;
+  margin: 0 auto;
+  /* background-color: greenyellow; */
+}
+
+
+
+
+
+/* footer */
+footer {
+  background-color: var(--main-color);
+  padding: 60px;
+}
+
+footer span {
+  font-weight: 600;
+}
+
+footer p {
+  color: var(--white-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: var(--black-color);
+  transition: 300ms ease-in;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  max-width: 400px;
 }
