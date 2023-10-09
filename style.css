@@ -12,8 +12,10 @@
   --secondary-color: #EFEFEF;
   --black-color: #000;
   --white-color: #fff;
-  --box-shadow: 0 0 5px 5px #EFEFEF;
+  --box-shadow: 0 0 30px 5px #dcdcdc;
   --box-border: 2px solid #A45454;
+  --section-padding: 80px 50px;
+  --link-hover: 300ms ease-in;
 }
 
 body {
@@ -28,40 +30,77 @@ body {
   /* background-color: greenyellow; */
 }
 
+/* links */
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--black-color);
+  transition: var(--link-hover);
+}
 
 
+
+
+
+
+
+
+
+
+/* services */
+#services {
+  background-color: var(--secondary-color);
+  padding: var(--section-padding);
+}
+
+.card {
+  display: flex;
+  gap: 40px;
+}
+
+.card a:hover {
+  color: var(--main-color);
+  transition: var(--link-hover);
+}
+
+.card__box {
+  width: 370px;
+  background-color: var(--white-color);
+  box-shadow: var(--box-shadow);
+}
+
+.card__box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  /* object-position: top; */
+}
+
+.card__inner {
+  padding: 25px 35px 35px 35px;
+}
 
 
 /* footer */
 footer {
   background-color: var(--main-color);
-  padding: 60px;
-}
-
-footer span {
-  font-weight: 600;
+  padding: var(--section-padding);
 }
 
 footer p {
   color: var(--white-color);
 }
 
-footer a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-footer a:hover {
-  color: var(--black-color);
-  transition: 300ms ease-in;
-}
-
 .footer {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
 }
 
-.contact {
-  max-width: 400px;
+.footer__contact {
+  width: 370px;
 }
