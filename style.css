@@ -81,14 +81,26 @@ a:hover {
   padding: var(--section-padding);
 }
 
-
-
-.col {
-  width: 50%;
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
 }
 
-.col img {
-  max-width: 300px;
+.column__2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.column__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.column__img--1 {
+  grid-column: span 2;
 }
 
 .col__heading {
@@ -150,7 +162,6 @@ a:hover {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  /* object-position: top; */
 }
 
 .card__inner {
