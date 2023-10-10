@@ -159,7 +159,7 @@
   .footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .footer__contact--1,
@@ -216,6 +216,14 @@
   .footer {
     gap: 20px;
   }
+
+  .btn {
+    width: 100%;
+  }
+
+  .btn__full {
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -246,15 +254,15 @@
   }
 
   .btn {
-    width: 150px;
+    width: 100%;
   }
 
   .btn__full {
-    margin-right: 10px;
+    margin-bottom: 15px;
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 435px) {
 
   :root {
     --section-padding: 35px;
