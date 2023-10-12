@@ -82,7 +82,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  height: 800px;
+  height: 100vh;
   padding: 50px;
 }
 
