@@ -206,6 +206,10 @@ h2 {
   font-weight: 600;
 }
 
+.col__text a:hover {
+  color: var(--main-color);
+}
+
 .logos__list {
   margin-top: 80px;
   width: 100%;
