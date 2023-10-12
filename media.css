@@ -269,7 +269,7 @@
   }
 
   header {
-    height: 90vh;
+    height: 100vh;
   }
 
   .btn {
@@ -316,6 +316,15 @@
   .hero__statement {
     width: 100%;
   }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -340,12 +349,11 @@
   }
 
   h1 {
-    font-size: 35px;
     margin-bottom: 22px;
   }
 
-  h2 {
-    margin-bottom: 35px;
+  nav img {
+    width: 150px;
   }
 }
 
@@ -353,30 +361,11 @@
 
   body {
     font-size: 15px;
-    /* line-height: 1.4; */
-  }
-
-  h1 {
-    font-size: 35px;
-    margin-bottom: 20px;
-  }
-
-  h2 {
-    font-size: 16px;
-    margin-bottom: 25px;
-  }
-
-  nav img {
-    width: 170px;
   }
 }
 
 @media only screen and (max-width: 350px) {
   
-  h1 {
-    font-size: 30px;
-  }
-
   .hero__social {
     gap: 20px;
   }
