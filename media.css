@@ -242,7 +242,8 @@
   }
 
   .hero__statement {
-    height: 90%;
+    height: auto;
+    margin-top: 50px;
   }
 
   h1 {
@@ -272,12 +273,8 @@
     --section-padding: 35px;
   }
 
-  header {
-    height: 100vh;
-  }
-
   nav img {
-    width: 150px;
+    width: 175px;
   }
 
   .btn {
@@ -380,7 +377,7 @@
 
 @media only screen and (max-width: 385px) {
 
-  body, h2 {
+  body {
     font-size: 15px;
   }
 
@@ -394,6 +391,14 @@
   
   .hero__social {
     gap: 20px;
+  }
+
+  nav img {
+    width: 160px;
+  }
+
+  .hero__statement {
+    margin-top: 40px;
   }
 
   .column__img--1 {
