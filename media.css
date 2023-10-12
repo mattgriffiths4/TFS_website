@@ -232,6 +232,11 @@
 
 @media only screen and (max-width: 500px) {
 
+  header {
+    height: auto;
+    padding: 60px 40px;
+  }
+
   .hero__nav {
     display: none;
   }
@@ -242,8 +247,7 @@
   }
 
   .hero__statement {
-    height: auto;
-    margin-top: 50px;
+    margin-top: 45px;
   }
 
   h1 {
